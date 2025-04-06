@@ -1,8 +1,16 @@
-#models/best_model.pt
-resume-dataset.zip
-
+# Derleme ve geçici dosyalar
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .streamlit/
 
+# IDE dosyaları
+.vscode/
+.idea/
+
+# Büyük dosyalar (yükleme!)
+models/best_model.pt
+resume-dataset.zip
+
+# Not: BERT model dosyaları artık dahil edilecek
+# models/bert/ —> YORUM DIŞI BIRAKILDI!
