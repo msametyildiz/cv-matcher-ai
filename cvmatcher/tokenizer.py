@@ -6,9 +6,11 @@ Ayrıca model girişleri için encode işlemi (tokenization) burada gerçekleşt
 """
 
 from transformers import AutoTokenizer
-from cvmatcher.config import MODEL_NAME
 
-# Tokenizer yükle (örneğin: 'bert-base-uncased')
+# Lokal model yolu
+MODEL_NAME = "models/bert"
+
+# Tokenizer yükle
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 
 
