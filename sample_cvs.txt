@@ -1,0 +1,5 @@
+Experienced Data Scientist with strong Python and Machine Learning background. Worked on NLP projects, BERT models and data pipelines.
+
+Frontend Developer with skills in React, HTML, CSS. No experience in data science.
+
+Junior Machine Learning Engineer with hands-on projects in computer vision and TensorFlow.

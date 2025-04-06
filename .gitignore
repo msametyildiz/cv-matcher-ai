@@ -1,0 +1,8 @@
+models/best_model.pt
+resume-dataset.zip
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.streamlit/
+
