@@ -41,8 +41,8 @@ TRAINING_PARAMS = {
     "max_seq_length": 128
 }
 
-# Model ve tokenizer adı (HuggingFace için)
-MODEL_NAME = "bert-base-uncased"
+# LOKAL model yolu
+MODEL_NAME = "models/bert"
 
 # Rastgelelik için sabit seed
 SEED = 42

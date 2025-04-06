@@ -6,12 +6,10 @@ Ayrıca model girişleri için encode işlemi (tokenization) burada gerçekleşt
 """
 
 from transformers import AutoTokenizer
+from cvmatcher.config import MODEL_NAME  # config.py'den geliyor
 
-# Lokal model yolu
-MODEL_NAME = "models/bert"
-
-# Tokenizer yükle
-tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+# Tokenizer yükle – LOKAL dosyadan
+tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, local_files_only=True)
 
 
 def tokenize_pair(text1: str, text2: str, max_length: int = 256):
