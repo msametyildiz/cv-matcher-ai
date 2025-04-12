@@ -9,7 +9,7 @@ from transformers import AutoTokenizer
 from cvmatcher.config import MODEL_NAME  # config.py'den geliyor
 
 # Tokenizer yükle – LOKAL dosyadan
-tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, local_files_only=True)
+tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 
 
 def tokenize_pair(text1: str, text2: str, max_length: int = 256):

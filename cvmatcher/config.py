@@ -42,7 +42,8 @@ TRAINING_PARAMS = {
 }
 
 # LOKAL model yolu
-MODEL_NAME = "models/bert"
+MODEL_NAME = "bert-base-uncased"
+
 
 # Rastgelelik için sabit seed
 SEED = 42
